@@ -1,6 +1,7 @@
 header .top {
   margin: 0 auto;
   width: 1200px;
+  padding: 26px;
 }
 header .top h1 {
   float: left;
@@ -66,4 +67,57 @@ header .sns li {
 }
 header .sns li img {
   width: 46px;
+}
+header .bottom {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+header .bottom > div {
+  margin: 0 auto;
+  width: 1200px;
+}
+header .bottom .lnb {
+  float: left;
+}
+header .bottom .lnb li {
+  float: left;
+}
+header .bottom .lnb a {
+  display: block;
+  line-height: 59px;
+  padding: 0 40px;
+  color: #333;
+  font-size: 22px;
+}
+header .bottom .spot {
+  float: right;
+  font-size: 0;
+}
+header .bottom .spot * {
+  vertical-align: middle;
+}
+header .bottom .spot a {
+  display: inline-block;
+  position: relative;
+  padding: 0 25px;
+  line-height: 59px;
+  font-size: 15px;
+  color: #666;
+}
+header .bottom .spot a ~ a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 10px;
+  background: #e3e3e3;
+  transform: translate(-50%);
+}
+header .bottom .spot button {
+  width: 59px;
+  height: 59px;
+  background: none;
+  color: #0066b3;
+  font-size: 26px;
 }
